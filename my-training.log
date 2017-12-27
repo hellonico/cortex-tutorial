@@ -1,0 +1,31 @@
+CUDA backend creation failed, reverting to CPU
+Training network:
+
+|    type |       input |      output | :bias | :weights |
+|---------+-------------+-------------+-------+----------|
+| :linear |   1x1x2 - 2 | 1x1x10 - 10 |  [10] |   [10 2] |
+|   :tanh | 1x1x10 - 10 | 1x1x10 - 10 |       |          |
+|   :tanh | 1x1x10 - 10 | 1x1x10 - 10 |       |          |
+| :linear | 1x1x10 - 10 |   1x1x1 - 1 |   [1] |   [1 10] |
+Parameter count: 41
+
+|     :type |           :value | :lambda | :node-id | :argument |
+|-----------+------------------+---------+----------+-----------|
+| :mse-loss | 796.556074286163 |     1.0 |       :y |           |
+
+Loss for epoch 1: (current) 796.556074286163 (best) null
+Saving network to my-fn2.nippy
+
+|     :type |            :value | :lambda | :node-id | :argument |
+|-----------+-------------------+---------+----------+-----------|
+| :mse-loss | 778.1283864244649 |     1.0 |       :y |           |
+
+Loss for epoch 2: (current) 778.1283864244649 (best) 796.556074286163
+Saving network to my-fn2.nippy
+
+|     :type |            :value | :lambda | :node-id | :argument |
+|-----------+-------------------+---------+----------+-----------|
+| :mse-loss | 762.0777914465388 |     1.0 |       :y |           |
+
+Loss for epoch 3: (current) 762.0777914465388 (best) 778.1283864244649
+Saving network to my-fn2.nippy
