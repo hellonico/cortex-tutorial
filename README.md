@@ -1,14 +1,14 @@
-# Cortex xor example
+# Cortex training example
 
-The xor function is non-linearly separable and therefore
-a good demo for a simple multilayer perceptron.
-
-See `src/xor-mlp/core.clj` for the code.
-
-## Running the example
-
-Execute `lein repl` and do
-
-```clojure
-(train-xor)
+To get started:
 ```
+lein notebook
+```
+
+# Training Notebook
+
+[http://127.0.0.1:10001/worksheet.html?filename=notebooks/create.clj](http://127.0.0.1:10001/worksheet.html?filename=notebooks/create.clj)
+
+# Use, plot, Re-train Notebook
+
+[http://127.0.0.1:10001/worksheet.html?filename=notebooks/use.clj](http://127.0.0.1:10001/worksheet.html?filename=notebooks/use.clj)
