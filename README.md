@@ -1,5 +1,7 @@
 # Cortex training example
 
+See [https://dzone.com/articles/machine-learning-clojurecortex](https://dzone.com/articles/machine-learning-clojurecortex)
+
 To get started:
 ```
 lein notebook
